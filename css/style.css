@@ -1230,7 +1230,7 @@ input[type="radio"]:checked + label {
             opacity: 0.5;
         }
         to{
-            height: 200px;
+            height: 300px;
             opacity: 1;
         }
     }
