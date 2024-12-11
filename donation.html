@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>廢結何工作室-捐款支持</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link href="img/favicon.ico" rel="shortcut icon" />
+    
+</head>
+<body>
+    <!-- 載入進度條 -->
+    <div id="loading" class="loading">
+        <img src="./img/轉圈.png" alt="" class="spin_in_circles">
+        <div class="schedule_div">
+            <div class="schedule"></div>
+            <div class="schedule_bg" id="schedule_bg"></div>
+        </div>
+    </div>
+    
+     <!-- 頭 -->
+     <header class="header">
+        <a class="header_a" href="index.html"><h1 class="header_h1">廢結何工作室-捐款支持</h1></a>
+        <div class="menu_box" ><img id="menu" src="./img/選單.png" alt="選單"></div>
+        <ul class="header_ul" id="header_ul">
+            <li class="header_li"><a class="header_il_a" href="index.html">回到首頁</a></li>
+            <li class="header_li"><a class="header_il_a" href="work.html">作品展示</a></li>
+            <li class="header_li"><a class="header_il_a" href="team.html">工作團隊</a></li>
+            <li class="header_li"><a class="header_il_a" href="donation.html">捐贈支持</a></li>
+            <li class="header_li"><a class="header_il_a" href="contact.html">聯絡我們</a></li>
+        </ul>
+    </header> 
+    <article class="big_img">
+        <img class="big_img_img" src="./img/dn.png" alt="客服照片">
+        <h2 class="big_img_h2">你的一分錢，是我的最大支持</h2>
+    </article>
+    <article class="article_main">
+        <div class="article_main_top">
+            <h2 class="article_main_top_h2">捐款表單</h2>
+            <div class="money_excel">
+                <div class="money_step_box">
+                    <div class="money_step_content" id="step_1">
+                        <img src="./img/step_1.png" alt="" class="money_step_img" >
+                        <h3 class="money_step">選擇方案</h3>
+                    </div>
+                    <div class="money_step_content" id="step_2">
+                        <img src="./img/step_2.png" alt="" class="money_step_img" >
+                        <h3 class="money_step">確認捐款</h3>
+                    </div>
+                </div>
+                <div class="cover" id="cover">
+                    <div id="money_img">
+                        <img src="./img/100.png" alt="" id="money_img_img" >
+                    </div>
+                    <div class="arrow_box">
+                        <img src="./img/請把錢投進去.png" alt="arrow"  class="arrow" id="arrow">
+                    </div>
+                    <div class="pig_box" >
+                        <img src="./img/小豬.png" alt="" class="pig" id="pig_box">
+                    </div>
+                </div>
+                <form action="#" class="money_excel_content">
+                    <div class="money_choose">
+                        <label class="money_title_word">捐款金額</label>
+                        <div class="money_choose_class" >
+                            <div class="money_choose_box">
+                                <input type="radio" id="money_100" name="money" value="100元" class="money_choose_button">
+                                <label for="money_100" class="money_word" id="money_100_word" >100元</label>
+                            </div>
+                            <div class="money_choose_box">
+                                <input type="radio" id="money_500" name="money" value="500元" class="money_choose_button">
+                                <label for="money_500" class="money_word" id="money_500_word" >500元</label>
+                            </div>
+                            <div class="money_choose_box">
+                                <input type="radio" id="money_1000" name="money" value="1000元" class="money_choose_button">
+                                <label for="money_1000" class="money_word" id="money_1000_word" >1000元</label>
+                            </div>
+                            <div class="money_choose_box">
+                                <input type="radio" id="money_2000" name="money" value="2000元" class="money_choose_button">
+                                <label for="money_2000" class="money_word" id="money_2000_word" >2000元</label>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="input_">
+                        <label for="account" class="money_title_word">名字</label>
+                        <input type="text"  name="account" placeholder="請輸入名字" class="enter" id="user" >
+                    </div>
+                    <div class="input_">
+                        <label for="account" class="money_title_word">email</label>
+                        <input type="text"  name="account" placeholder="請輸入email" class="enter" id="email">
+                    </div>
+
+                    <div class="money_button" >
+                        <div class="money_button_box" id="money_button_word">
+                            <h4 class="money_button_word"> 下一步</h4>
+                        </div>
+                        <input type="submit" class="money_button_box" id="money_button_go" value="捐款完成">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </article> 
+    <footer class="footer">
+        <p>©Copyright All rights reserved.</p>
+    </footer>   
+    <script src="./js/menu.js"></script>
+    <script src="./js/appear.js"></script>
+    <script src="./js/load.js"></script>
+    <script src="./js/excel.js"></script>
+
+</body>
+</html>
