@@ -838,6 +838,7 @@ input[type="radio"]:checked + label {
     top: 20px;
     z-index: 3;
  user-select: none;/* 禁止文字或圖片被選中 */
+        cursor: pointer; /*滑鼠過來會變手指*/
 }
 #money_img_img{
     width: 80%;
